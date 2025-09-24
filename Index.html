@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prótesis FUNDARTE</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo de Prótesis FUNDARTE">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h1>Bienvenido a Prótesis FUNDARTE</h1>
+        <p>Tu tienda de prótesis personalizadas y de alta calidad.</p>
+    </section>
+
+    <section id="productos">
+        <h2>Catálogo de Productos</h2>
+        <div class="producto">
+            <img src="images/protesis1.jpg" alt="Prótesis de brazo">
+            <h3>Prótesis de Brazo</h3>
+            <p>€1.200</p>
+            <p>Modelo ligero y ergonómico, fabricado en fibra de carbono. Uso diario cómodo.</p>
+            <a href="mailto:contacto@fundarte.com">Comprar</a>
+        </div>
+        <!-- Repite el bloque anterior para cada producto -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta? Contáctanos:</p>
+        <form action="mailto:contacto@fundarte.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Prótesis FUNDARTE</p>
+    </footer>
+</body>
+</html>
