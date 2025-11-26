@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Clientes Satisfechos - Prótesis FundArte</title>
+<title>Clientes satisfechos - Prótesis FundArte</title>
 <style>
 body { font-family:"Segoe UI", Arial, sans-serif; margin:0; background:#fff; color:#222;}
 header, footer {text-align:center; padding:30px; background:#000; color:#fff;}
@@ -14,8 +14,10 @@ nav ul li a:hover {text-decoration:underline;}
 section {max-width:1100px; margin:auto; padding:50px 20px;}
 .volver-inicio {display:inline-block; margin:15px 0; padding:8px 15px; background:#000; color:#fff; text-decoration:none; border-radius:5px;}
 .volver-inicio:hover {background:#333;}
-.testimonio {border:1px solid #ddd; border-radius:10px; padding:20px; margin-bottom:20px;}
-.stars {color:#f1c40f;}
+.testimonials {display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:25px;}
+.testimonial-card {border:1px solid #ddd; border-radius:10px; padding:20px; text-align:center;}
+.testimonial-card img {width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px; margin-bottom:15px;}
+.stars {color:#f5c518; margin-bottom:10px;}
 </style>
 </head>
 <body>
@@ -37,23 +39,31 @@ section {max-width:1100px; margin:auto; padding:50px 20px;}
 </nav>
 
 <section>
-  <h2>Clientes Satisfechos</h2>
+  <h2>Clientes satisfechos</h2>
   <a href="index.html" class="volver-inicio">← Volver al menú principal</a>
+  <div class="testimonials">
 
-  <div class="testimonio">
-    <p><strong>Laura M.</strong></p>
-    <p class="stars">★★★★★</p>
-    <p>¡La funda personalizada superó mis expectativas! Diseño único y muy cómodo.</p>
-  </div>
-  <div class="testimonio">
-    <p><strong>Carlos P.</strong></p>
-    <p class="stars">★★★★☆</p>
-    <p>Excelente atención y envío rápido, muy recomendable.</p>
-  </div>
-  <div class="testimonio">
-    <p><strong>Ana R.</strong></p>
-    <p class="stars">★★★★★</p>
-    <p>Mi prótesis ahora tiene estilo y personalidad gracias a FundArte.</p>
+    <div class="testimonial-card">
+      <img src="reseña1.jpeg" alt="Cliente satisfecho 1">
+      <div class="stars">★★★★★</div>
+      <p>"La funda personalizada es increíble, muy cómoda y con un diseño único. ¡100% recomendable!"</p>
+      <p><strong>- Ana P.</strong></p>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="reseña2.jpeg" alt="Cliente satisfecho 2">
+      <div class="stars">★★★★☆</div>
+      <p>"Excelente servicio y atención. Mi prótesis nunca había sido tan estilosa."</p>
+      <p><strong>- Luis M.</strong></p>
+    </div>
+
+    <div class="testimonial-card">
+      <img src="reseña3.jpeg" alt="Cliente satisfecho 3">
+      <div class="stars">★★★★★</div>
+      <p>"El envío fue rápido y la calidad de la funda es superior. ¡Me encanta!"</p>
+      <p><strong>- Carmen R.</strong></p>
+    </div>
+
   </div>
 </section>
 
