@@ -14,6 +14,10 @@ nav ul li a:hover {text-decoration:underline;}
 section {max-width:1100px; margin:auto; padding:50px 20px;}
 .volver-inicio {display:inline-block; margin:15px 0; padding:8px 15px; background:#000; color:#fff; text-decoration:none; border-radius:5px;}
 .volver-inicio:hover {background:#333;}
+.shipping-grid {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:25px; margin-top:30px;}
+.shipping-card {border:1px solid #ddd; border-radius:10px; padding:20px; text-align:center;}
+.shipping-card h3 {margin-bottom:10px;}
+.shipping-card p {line-height:1.6;}
 </style>
 </head>
 <body>
@@ -22,31 +26,50 @@ section {max-width:1100px; margin:auto; padding:50px 20px;}
 </header>
 
 <nav>
-  <ul>
-    <li><a href="index.html">Inicio</a></li>
-    <li><a href="protesis.html">Prótesis</a></li>
-    <li><a href="fundas.html">Fundas</a></li>
-    <li><a href="clientes.html">Clientes satisfechos</a></li>
-    <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
-    <li><a href="filosofia.html">Nuestra filosofía</a></li>
-    <li><a href="envio.html">Envío a domicilio</a></li>
-    <li><a href="contacto.html">Contacto</a></li>
-  </ul>
+<ul>
+<li><a href="index.html">Inicio</a></li>
+<li><a href="protesis.html">Prótesis</a></li>
+<li><a href="fundas.html">Fundas</a></li>
+<li><a href="clientes.html">Clientes satisfechos</a></li>
+<li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+<li><a href="filosofia.html">Nuestra filosofía</a></li>
+<li><a href="envio.html">Envío a domicilio</a></li>
+<li><a href="contacto.html">Contacto</a></li>
+</ul>
 </nav>
 
 <section>
-  <h2>Envío a Domicilio</h2>
-  <a href="index.html" class="volver-inicio">← Volver al menú principal</a>
-  <p>
-    Realizamos envíos rápidos, seguros y discretos a toda España. Cada pedido es embalado cuidadosamente para garantizar que tu prótesis o funda llegue en perfectas condiciones.
-  </p>
-  <p>
-    Nuestro servicio está diseñado para tu comodidad: puedes recibir tu producto directamente en casa sin complicaciones y con seguimiento del envío en tiempo real.
-  </p>
+<h2>Envío a Domicilio</h2>
+<a href="index.html" class="volver-inicio">← Volver al menú principal</a>
+
+<p>En FundArte queremos que tus prótesis y fundas lleguen a tu hogar de manera segura, rápida y confiable. Estos son los detalles de nuestro servicio:</p>
+
+<div class="shipping-grid">
+  <div class="shipping-card">
+    <h3>Cobertura</h3>
+    <p>Realizamos envíos a toda España, asegurando que tu pedido llegue en perfectas condiciones.</p>
+  </div>
+  <div class="shipping-card">
+    <h3>Plazos de entrega</h3>
+    <p>Los pedidos se preparan y envían en un plazo de 3 a 5 días laborables, dependiendo del tipo de producto.</p>
+  </div>
+  <div class="shipping-card">
+    <h3>Coste del envío</h3>
+    <p>El envío estándar tiene un coste fijo de 15€, con opciones de envío exprés disponibles bajo petición.</p>
+  </div>
+  <div class="shipping-card">
+    <h3>Empaque</h3>
+    <p>Todos los productos se envían cuidadosamente embalados para proteger la pieza y mantener la calidad artesanal.</p>
+  </div>
+  <div class="shipping-card">
+    <h3>Seguimiento</h3>
+    <p>Podrás rastrear tu pedido desde que sale de nuestro taller hasta que llega a tu domicilio.</p>
+  </div>
+</div>
 </section>
 
 <footer>
-  <p>© 2025 Prótesis FundArte | Valencia, España | pedidosfundarte@gmail.com | 665 669 948</p>
+<p>© 2025 Prótesis FundArte | Valencia, España | pedidosfundarte@gmail.com | 665 669 948</p>
 </footer>
 </body>
 </html>
