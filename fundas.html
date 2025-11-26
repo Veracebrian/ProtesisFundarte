@@ -16,9 +16,10 @@ section {max-width:1100px; margin:auto; padding:50px 20px;}
 .volver-inicio:hover {background:#333;}
 .products {display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:25px;}
 .product-card {border:1px solid #ddd; border-radius:10px; padding:20px; text-align:center;}
-.product-card img {width:100%; height:180px; object-fit:cover; border-radius:8px;}
+.product-card img {width:100%; aspect-ratio:1/1; object-fit:cover; border-radius:8px;}
 .btn {display:inline-block; margin-top:15px; padding:10px 22px; background:#000; color:#fff; text-decoration:none; border-radius:6px;}
 .btn:hover {background:#333;}
+.price {font-weight:bold; margin-top:5px; display:block;}
 </style>
 </head>
 <body>
@@ -40,15 +41,42 @@ section {max-width:1100px; margin:auto; padding:50px 20px;}
 </nav>
 
 <section>
-  <h2>Fundas Personalizadas</h2>
+  <h2>Fundas</h2>
   <a href="index.html" class="volver-inicio">← Volver al menú principal</a>
   <div class="products">
+
     <div class="product-card">
-      <img src="funda1.jpeg" alt="Funda artística">
+      <img src="exclusiva.jpeg" alt="Funda artística exclusiva">
       <h3>Funda artística exclusiva</h3>
       <p>Diseños únicos adaptados a tu personalidad.</p>
-      <a class="btn" href="mailto:pedidosfundarte@gmail.com?subject=Pedido%20Funda%20artística">Comprar</a>
+      <span class="price">Precio: 1000€</span>
+      <a class="btn" href="mailto:pedidosfundarte@gmail.com?subject=Pedido%20Funda%20Artística%20Exclusiva">Comprar</a>
     </div>
+
+    <div class="product-card">
+      <img src="futbol.jpeg" alt="Funda deportes">
+      <h3>Funda deportes</h3>
+      <p>Inspirada en la pasión deportiva.</p>
+      <span class="price">Precio: 500€</span>
+      <a class="btn" href="mailto:pedidosfundarte@gmail.com?subject=Pedido%20Funda%20Deportes">Comprar</a>
+    </div>
+
+    <div class="product-card">
+      <img src="tunombre.jpeg" alt="Funda personalizada">
+      <h3>Funda personalizada</h3>
+      <p>Tu nombre o diseño único adaptado a ti.</p>
+      <span class="price">Precio: 500€</span>
+      <a class="btn" href="mailto:pedidosfundarte@gmail.com?subject=Pedido%20Funda%20Personalizada">Comprar</a>
+    </div>
+
+    <div class="product-card">
+      <img src="fallas.jpeg" alt="Funda fallas">
+      <h3>Funda fallas</h3>
+      <p>Inspirada en las famosas Fallas de Valencia.</p>
+      <span class="price">Precio: 500€</span>
+      <a class="btn" href="mailto:pedidosfundarte@gmail.com?subject=Pedido%20Funda%20Fallas">Comprar</a>
+    </div>
+
   </div>
 </section>
 
